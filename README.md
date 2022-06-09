@@ -16,7 +16,9 @@
  ### Software:
  
  -PostgreSQL
+ 
  -pgAdmin
+ 
  -VSCode
  
  ## Results:
@@ -26,7 +28,11 @@
  
  ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_titles.png)
  
- 2. Because some employees may have multiple titles in the database—for example, due to promotions—we use the DISTINCT ON with Orderby to remove duplicate rows and to create a table that contains the most recent title of each employee.We create a Unique Titles table using the INTO clause.Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e., to_date) of the most recent title.The Unique Titles table is as follows:
+ 2. Because some employees may have multiple titles in the database—for example, due to promotions—we use the DISTINCT ON with Orderby to remove duplicate rows and to create a table that contains the most recent title of each employee.
+ 
+ ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/retiring_dept.png)
+ 
+ 3. We create a Unique Titles table using the INTO clause.Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e., to_date) of the most recent title.The Unique Titles table is as follows:
  
  ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/unique_titles.png)
  
