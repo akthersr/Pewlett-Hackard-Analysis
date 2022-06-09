@@ -45,7 +45,7 @@
  
  ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/retiring_titles.png)
  
- The resuts from the analysis show that 25,916 Senior Engineers, and 24,962 Senior Staff will be eligible to retire. Given that there are more than 70 thousand employees eligible to retire, a large percent of them are senior level.
+ The resuts from the analysis show that 25,916 Senior Engineers, and 24,926 Senior Staff will be eligible to retire. Given that there are more than 70 thousand employees eligible to retire, a large percent of them are senior level.
  
  4. Finally, because we want to include only current employees in our analysis, exclude those employees who have already left the company.
  
