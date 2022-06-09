@@ -7,10 +7,15 @@
  ### Data Source:
 
 -departments.csv
+
 -dept_emp.csv
+
 -employees.csv
+
 -dept_managers.csv
+
 -salaries.csv
+
 -titles.csv
  
  ### Software:
@@ -40,7 +45,7 @@
  
  ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/retiring_titles.png)
  
- The resuts from the analysis show that 29,914 Senior Engineers, and 28,254 Senior Staff will be eligible to retire. Given that there are 90,398 employees eligible to retire, a large percent of them are senior level.
+ The resuts from the analysis show that 25,916 Senior Engineers, and 24,962 Senior Staff will be eligible to retire. Given that there are more than 70 thousand employees eligible to retire, a large percent of them are senior level.
  
  4. Finally, because we want to include only current employees in our analysis, exclude those employees who have already left the company.
  
@@ -57,4 +62,11 @@
  ![](https://github.com/akthersr/Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibilty.png)
  
   Almost one third of the retirees are Senior Engineers, while another third includes the rest of the Senior Staff.As a result, Senior Engineer and Senior Staff positions have the greatest priority when it comes to deciding which roles the company would like to fill.According to the mentorship eligibility criteria, 1,549 current employees are eligible for the program. 
+ 
+ ## Summary:
+ 
+ 1.To determine the number of roles need to be filled as the "silver tsunami" begins to make an impact,we can create a new table with the retirees according to their age groups.This table will help us to find out how many positions needed to be filled up in the future(for each year).All these will help Pewlett Hackard Company remain functional during and in the aftermath of the "Silver Tsunami", the large wave of retirements.The "silver tsunami" mainly affected the Senior Engineer and Senior Staff with 25,916 and 24,926 retiring employees respectively.So,the company would have to create an effective program that can cover the disparity between the number of people retiring and the number of people who can be trained to fill these positions.
+ 
+ 2.As we saw in the analysis,that there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees,we can breakdown the retirees by department to plan better.As we have found in earlier analysis,, there are over 70,000 thousand positions to be vacant soon and there are just over 1,500 mentors available to guide the next generation of employees as per the mentorship criteria.From there, the company can prioritize how many younger employees need to be trained to fill up the retired positions. It would also be beneficial if we created a query that grouped mentor-eligible employees into position titles.
+ 
  
