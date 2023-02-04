@@ -6,25 +6,25 @@
  ## Resources:
  ### Data Source:
 
--departments.csv
+- departments.csv
 
--dept_emp.csv
+- dept_emp.csv
 
--employees.csv
+- employees.csv
 
--dept_managers.csv
+- dept_managers.csv
 
--salaries.csv
+- salaries.csv
 
--titles.csv
+- titles.csv
  
  ### Software:
  
- -PostgreSQL
+ - PostgreSQL
  
- -pgAdmin
+ - pgAdmin
  
- -VSCode
+ - VSCode
  
  ## Results:
  ### Deliverable 1: The Number of Retiring Employees by Title:
